@@ -90,7 +90,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking, onExploreServices }) 
               {/* Main Clinic Photography Container */}
               <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white bg-slate-100 aspect-[4/3] lg:aspect-[1/1] group">
                 <img
-                  src="/images/hero_clinic.jpg"
+                  src={`${import.meta.env.BASE_URL}images/hero_clinic.jpg`}
                   alt="SmileCare Dental Clinic Interior & Treatment Care"
                   className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700"
                 />
