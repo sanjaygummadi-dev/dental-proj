@@ -1,4 +1,6 @@
 import type { ServiceCategory, Doctor, Testimonial, FAQItem, TechEquipment } from '../types';
+import drAnanyaImg from '../assets/images/dr_ananya.jpg';
+import drVikramImg from '../assets/images/dr_vikram.jpg';
 
 export const CLINIC_INFO = {
   name: 'SmileCare Dental',
@@ -230,7 +232,7 @@ export const DOCTORS_DATA: Doctor[] = [
     experienceYears: 15,
     bio: 'Dr. Ananya Rao specializes in complex smile rehabilitation and precision dental implants. Trained at leading dental institutions, she combines clinical skill with a compassionate bedside manner to give patients comfortable, lasting dental restorations.',
     areasOfExpertise: ['Dental Implants', 'Full Mouth Rehabilitation', 'Porcelain Veneers', 'Crown & Bridge Work'],
-    image: `${import.meta.env.BASE_URL}images/dr_ananya.jpg`,
+    image: drAnanyaImg,
     registrationNumber: 'A-14982 (Telangana State Dental Council - Demo)'
   },
   {
@@ -241,7 +243,7 @@ export const DOCTORS_DATA: Doctor[] = [
     experienceYears: 12,
     bio: 'Dr. Vikram Reddy has transformed over 3,000 smiles using clear aligners and modern self-ligating braces. He believes in conservative, non-extraction orthodontic philosophy whenever possible, ensuring natural facial aesthetics.',
     areasOfExpertise: ['Clear Aligners (Invisalign)', 'Adult Orthodontics', 'Child Malocclusion', 'Surgical Orthodontics'],
-    image: `${import.meta.env.BASE_URL}images/dr_vikram.jpg`,
+    image: drVikramImg,
     registrationNumber: 'A-18234 (Telangana State Dental Council - Demo)'
   },
   {
