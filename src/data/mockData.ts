@@ -1,6 +1,7 @@
 import type { ServiceCategory, Doctor, Testimonial, FAQItem, TechEquipment } from '../types';
 import drAnanyaImg from '../assets/images/dr_ananya.jpg';
 import drVikramImg from '../assets/images/dr_vikram.jpg';
+import drPriyaImg from '../assets/images/dr_priya.jpg';
 
 export const CLINIC_INFO = {
   name: 'SmileCare Dental',
@@ -254,7 +255,7 @@ export const DOCTORS_DATA: Doctor[] = [
     experienceYears: 9,
     bio: 'Dr. Priya Sharma is dedicated to making dental visits joyful and stress-free for kids. Her gentle demeanor, patience, and child-centered communication help young patients feel completely safe and confident in the chair.',
     areasOfExpertise: ['Child Oral Health', 'Preventive Fluoride & Sealants', 'Child Habit Correction', 'Behavior Management'],
-    image: 'https://images.unsplash.com/photo-1594824813566-78a9c84e1b8b?auto=format&fit=crop&q=80&w=600',
+    image: drPriyaImg,
     registrationNumber: 'A-21045 (Telangana State Dental Council - Demo)'
   }
 ];
